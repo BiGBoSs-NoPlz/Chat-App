@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-dark: #0c0c14;
+  --primary-light: #1a1a2e;
+  --neon-blue: #00b4d8;
+  --neon-purple: #9d4edd;
+  --neon-green: #00f5d4;
+  --text-primary: #e6e6e6;
+  --text-secondary: #b8b8b8;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: var(--primary-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
+
+button, input {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.8; }
+  5% { opacity: 0.5; }
+  10% { opacity: 0.8; }
+  15% { opacity: 0.9; }
+  25% { opacity: 0.8; }
+  30% { opacity: 1; }
+  35% { opacity: 0.7; }
+  40% { opacity: 0.9; }
+  45% { opacity: 0.8; }
+  60% { opacity: 0.7; }
+  70% { opacity: 0.9; }
+  80% { opacity: 0.8; }
+  90% { opacity: 1; }
+  100% { opacity: 0.8; }
+} 
